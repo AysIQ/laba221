@@ -7,3 +7,5 @@ Created function of adding two values of numbers
 Created "+" and "=" Labels
 
 Created Entry for first and second numbers
+
+Created Button for calculation

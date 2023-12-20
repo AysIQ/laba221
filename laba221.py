@@ -29,3 +29,8 @@ entry.grid(column=0, row=0)
 
 entry2=tkk.Entry(window)
 entry2.grid(column=2, row=0)
+
+butnn=tkk.Button(window, text="Расчитать сумму чисел", command=calc)
+butnn.grid(column=1, row=2)
+
+window.mainloop()
