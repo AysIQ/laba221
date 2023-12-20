@@ -4,7 +4,7 @@ from tkinter.messagebox import showerror
 # Create the window with Tk library
 window=Tk()
 window.title("Сложение двух чисел") # set window title
-window.geometry("700x150") #set size
+window.geometry("700x100") #set size
 
 def calc(): 
 
@@ -16,20 +16,23 @@ def calc():
 
     outlabel=tkk.Label(window, text=sum)
     outlabel.grid(column=4, row=0)
-    
-    
+
+#Create the "+" Label
 out=tkk.Label(window, text=" + ") 
 out.grid(column=1, row=0)
-
+#Create the "=" Label
 out2=tkk.Label(window, text=" = ")
 out2.grid(column=3, row=0)
 
+#Create Entry for first number
 entry=tkk.Entry(window) 
 entry.grid(column=0, row=0)
 
+#Create Entry for second number
 entry2=tkk.Entry(window)
 entry2.grid(column=2, row=0)
 
+#Create the Button for calculation
 butnn=tkk.Button(window, text="Расчитать сумму чисел", command=calc)
 butnn.grid(column=1, row=2)
 
