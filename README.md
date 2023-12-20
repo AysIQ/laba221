@@ -1,2 +1,3 @@
-Added tkinter library
-Added window menu and his settings
+Created tkinter library
+Created window menu and his settings
+Created function of adding two values of numbers
