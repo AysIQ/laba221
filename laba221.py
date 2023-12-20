@@ -7,14 +7,10 @@ window.title("Сложение двух чисел") # set window title
 window.geometry("700x100") #set size
 
 def calc(): 
-    try:
-	float1=float(entry.get()) #get float value of first number
-    	float2=float(entry2.get()) #get float value of second number
-    except ValueError:
-	showerror("ERROR!", "Enter the values of number!")
-        return [None]
-	
-    	
+
+    float1=float(entry.get()) #get float value of first number
+    float2=float(entry2.get()) #get float value of second number
+
     #Addition operation
     sum=float1+float2
 

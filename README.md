@@ -15,3 +15,5 @@ Edited code, created commetns for import, window and fuction of adding operation
 Edited & created commetns for other piece of code
 
 Created valueerror
+
+Cancelled and deleted ValueError
