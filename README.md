@@ -13,3 +13,5 @@ Created Button for calculation
 Edited code, created commetns for import, window and fuction of adding operation
 
 Edited & created commetns for other piece of code
+
+Created valueerror
