@@ -9,3 +9,7 @@ Created "+" and "=" Labels
 Created Entry for first and second numbers
 
 Created Button for calculation
+
+Edited code, created commetns for import, window and fuction of adding operation
+
+

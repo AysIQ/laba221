@@ -1,17 +1,17 @@
 import tkinter as tkk
 from tkinter import Tk
 from tkinter.messagebox import showerror
-
+# Create the window with Tk library
 window=Tk()
-window.title("Сложение двух чисел") 
-window.geometry("700x100") 
+window.title("Сложение двух чисел") # set window title
+window.geometry("700x150") #set size
 
 def calc(): 
 
-    float1=float(entry.get()) 
-    float2=float(entry2.get()) 
+    float1=float(entry.get()) #get float value of first number
+    float2=float(entry2.get()) #get float value of second number
 
-    
+    #Addition operation
     sum=float1+float2
 
     outlabel=tkk.Label(window, text=sum)
