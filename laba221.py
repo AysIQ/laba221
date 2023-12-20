@@ -23,3 +23,9 @@ out.grid(column=1, row=0)
 
 out2=tkk.Label(window, text=" = ")
 out2.grid(column=3, row=0)
+
+entry=tkk.Entry(window) 
+entry.grid(column=0, row=0)
+
+entry2=tkk.Entry(window)
+entry2.grid(column=2, row=0)
