@@ -16,3 +16,10 @@ def calc():
 
     outlabel=tkk.Label(window, text=sum)
     outlabel.grid(column=4, row=0)
+    
+    
+out=tkk.Label(window, text=" + ") 
+out.grid(column=1, row=0)
+
+out2=tkk.Label(window, text=" = ")
+out2.grid(column=3, row=0)
